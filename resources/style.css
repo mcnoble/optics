@@ -44,12 +44,12 @@ header {
   padding: 1rem 2rem;
   color: white;
 }
-
-.cover-text {
+/*Cover Text*/
+header .cover-text {
+  justify-content: flex-end;
   background-color: white;
-  width: 20rem;
-  justify-content: right;
-  top: 10rem;
+    float: right;
+  margin-top: 10rem;
 }
 .cover-text h4 {
   font-weight: bold;
